@@ -1,0 +1,462 @@
+/* CSS para "index.html" */
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#contactar{
+	float: right;
+	padding: 1.5% 5% 0% 0%;
+	color: rgb(151,151,151);
+	position: relative;
+	font-family: Cambria, Helvetica, sans-serif;
+	font-size: 1.3vw;
+}
+
+#main{
+	width: 93%;
+	padding: 0px 0px 0px 0px;	
+	margin: auto;
+}
+
+#logo{
+	width: 15%;
+	height: 5%;
+}
+
+#menu{
+	background-image: linear-gradient(to right, rgb(236,177,0) , rgb(251,125,0));
+	opacity: 0.9; 
+	padding: 8px 0px 15px 0px;
+	font-family: Cambria, Helvetica, sans-serif;
+	font-size: 1.5vw;
+	color: white;
+	margin: auto;
+	text-align: center;
+	word-spacing: 50%;
+	width: 100%;
+	height: 1em;
+	border: 1px solid rgba(169,169,169,0.8);
+	margin-left: auto;
+    margin-right: auto;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:visited{
+	text-decoration: none;
+}
+
+a:houver{
+	text-decoration: underline; 
+}
+
+.link{
+	padding-right: 40px;
+	color: white;
+	font-size:1.5vw;
+}
+
+#title{
+	padding: 60px 0px 0px 80px;
+	font-family: Cambria, Helvetica, sans-serif;
+	font-size:3.5vw;
+}
+
+#text{
+	font-family: Cambria, Helvetica, sans-serif;
+	font-size:1.8vw;
+	padding: 20px 0px 0px 80px;
+	text-align: justify;
+	color: rgba(169,169,169,1);
+}
+
+#img{
+	opacity: 0.9;
+	position: relative;
+	width: 100%;
+	height: 43vw;
+	border: 1px solid rgba(169,169,169,0.8);
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#img2{
+	float: right;
+    width: 80%;
+	height: 70%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#img3{
+	padding-top: 80px; 
+	float: left;
+	width: 80%;
+	height: 70%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#img4{
+	padding-top: 20px;	
+	margin-left: auto;
+    margin-right: auto;
+    float: right;
+    width: 100%;
+    height: 700px;
+}
+
+#text2{
+	top: 5.5em;
+	left: 3.8em;
+	color: rgba(0,0,0,1);
+	font-size:2.2vw;
+	position: relative;
+
+}
+
+#text3{
+	top: 15vw;
+	right: 7vw;
+	color: rgba(0,0,0,1);
+	font-size:2.2vw; 
+	float: right;
+	position: relative;
+}
+
+#text4{
+	padding-top: 25px;
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	color: rgba(0,0,0,1);
+	font-size: 2vw;
+}
+
+#button{
+	margin-left: auto;
+	margin-right: auto;
+	top:13em;
+	left: 1em;
+	width: 10%;
+	height: 3em;
+    padding: 1em 1em;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #FCC302;
+    font-size:1.2vw;
+    position: relative;
+}
+
+#button2{
+	margin-left: auto;
+	margin-right: auto;
+	top:15.5em;
+	left: 1em;
+	width: 10%;
+	height: 3em;
+    padding: 1em 1em;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #FCC302;
+    font-size:1.2vw;
+    float: right;
+    position: relative;
+}
+
+#button3{
+	margin-left: auto;
+	margin-right: auto;
+	width: 10%;
+    padding: 1em 1em;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #FCC302;
+    font-size:1.2vw;
+   	margin-left: 45%;
+}
+
+#frase1{
+	float: left; 
+	padding: 5% 0% 0% 37%;
+	text-align: right;
+	color: rgba(0,0,0,1);
+	font-size:2vw;
+	font-family: Cambria, Helvetica, sans-serif;
+	display: block;
+}
+
+#frase2{
+	padding: 5% 0% 0% 25%;
+	color: rgba(0,0,0,1);
+	font-size:2vw;
+	font-family: Cambria, Helvetica, sans-serif;
+}
+
+#table1{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 5%;
+	display: inline-block;
+}
+
+#table2{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5%;
+  	text-align: center;
+}
+
+#burges{
+	background: url("imagens/fundo5.png");
+	background-repeat:no-repeat;
+	background-size: 100%;
+	height: 48vw;
+	position: relative;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#textBurg{
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	color: rgba(255,255,255,1);
+	font-size: 2vw;
+	font-family: Cambria, Helvetica, sans-serif;
+	padding: 0% 0% 2% 15%;
+}
+
+#frase3{
+	display: block;
+
+}
+
+.campos{
+	padding: 0px 10px 10px 0px;
+	width: 25%;
+}
+
+.campos2{
+	
+	width: 100%;
+}
+
+#footer{
+	width: 100%;
+	height: 20vw;
+	background-color:  rgba(99,58,56,0.7);
+	margin-top: 5em;
+	font-size: 1.2vw;
+	font-family: Cambria, Helvetica, sans-serif;
+	color: white;
+}
+
+#enlaces{
+	padding-top: 10px; 
+	margin-left: 5%;
+	width: 10%;
+	float: left;	
+}
+
+#apoyo{
+	padding-top: 10px;
+	margin-left: 7%;
+	float: left;
+}
+
+#direccion{
+	padding-top: 10px;
+	margin-left: 4%;
+	float: left;
+}
+
+#img5{
+	width: 22%;
+	height: 50%;
+	float: left;
+	margin: 5% 0% 0% 3%;
+}
+
+#input{
+	margin: 0% 0% 0% 4%;
+	width: 16%;
+	height: 9%;
+	border-radius: 5px;
+}
+
+#e-mail{
+	margin: 8% 0% 0% 4.2%;
+	float: left;
+}
+
+
+/* CSS para "quienes_somos.html"*/
+
+#presentation{
+	font-size: 1.4vw;
+	font-family: Cambria, Helvetica, sans-serif;
+	padding: 1% 0% 0% 15%;
+	color: rgba(120,120,120);
+}
+
+.services{
+	float: left;
+	padding-left: 1%;
+	width: 18%;
+}
+
+#textServices{
+	padding: 12% 0% 0% 9.5%;
+	font-size: 1.1vw;
+	color: rgb(26,26,27);
+}
+
+#textServices2{
+	color: black; 
+	padding-top: 3%;
+}
+
+#prestations{
+	padding-top: 5%;
+}
+
+.imgRight{
+	float: right; 
+	padding-right: 15%;
+	width: 13.6vw;
+	
+}
+
+.imgLeft{
+	float: left; 
+	padding-right: 1%;
+	width: 13.6vw;
+}
+
+
+/* CSS para "programas.html" y "alojamiento.html" */
+
+#sitios{
+	width:40vw;
+	margin-left: 20%;
+	margin-right: auto;
+	font-size: 0vw;
+	font-family: Cambria, Helvetica, sans-serif;
+	color: rgba(120,120,120);
+	display: inline-block;
+}
+
+.imgSitio{
+	width:20vw;
+}
+
+.textSitio{
+	font-size: 1.2vw;
+	font-family: Cambria, Helvetica, sans-serif;
+	color: rgba(120,120,120);
+	float: right;
+	padding-right: 2%;
+}
+
+.border{
+	border: 1px solid gray;
+	box-shadow: 5px 10px 8px #888888;
+	margin-top: 6%;
+}
+
+#titulo{
+	color: rgb(104,100,100);
+	padding-top: 3%;
+	font-size: 2.5vw;
+	font-family: Cambria, Helvetica, sans-serif;
+}
+
+#subtitulo{
+	color: rgb(30,30,30);
+	padding: 0% 0% 3% 1%;
+	font-size: 1.5vw;
+	font-family: Cambria, Helvetica, sans-serif;
+}
+
+.titulo2{
+	color: rgb(32,32,32);
+	font-size: 1.3vw;
+}
+
+#tableInputs{
+	float: right;
+	right: 8%;
+	bottom: 0%;
+	color: rgb(104,100,100);
+	font-size: 1.2vw;
+	font-family: Cambria, Helvetica, sans-serif;
+	margin: 3% 7% 0% 0%;
+}
+
+.inputs{
+	margin-bottom: 8%;
+	width: 17vw;
+	height: 2vw;
+	box-shadow: 5px 2px 8px #888888;
+}
+
+#enviar{
+	width: 10vw;
+	height: 2vw;
+	box-shadow: 5px 2px 8px #888888;
+	background-color: rgb(168,0,0);
+	color: white;
+	border:none;
+	font-size: 1vw;
+	font-family: Cambria, Helvetica, sans-serif;
+	margin: 5% 0% 0% 20%;
+}
+
+/* CSS para "contactar.html" */
+
+#tableInputs2{
+	padding: 0% 0% 0% 20%;
+	color: rgb(104,100,100);
+	font-size: 1.2vw;
+	font-family: Cambria, Helvetica, sans-serif;
+	width: 50%
+}
+
+.inputs2{
+	margin-bottom: 3%;
+	width: 50vw;
+	height: 2vw;
+	box-shadow: 5px 2px 8px #888888;
+}
+
+#enviar2{
+	width: 10vw;
+	height: 2vw;
+	box-shadow: 5px 2px 8px #888888;
+	background-color: rgb(168,0,0);
+	color: white;
+	border:none;
+	font-size: 1vw;
+	font-family: Cambria, Helvetica, sans-serif;
+	margin: 5% 0% 0% 45%;
+}
+
+#contacTitle{
+	color: rgb(104,100,100);
+	padding: 3% 0% 0% 18%;
+	font-size: 2.8vw;
+	font-family: Cambria, Helvetica, sans-serif;
+}
+
+#subtitulo2{
+	color: rgb(30,30,30);
+	padding: 1% 0% 3% 18%;
+	font-size: 1.5vw;
+	font-family: Cambria, Helvetica, sans-serif;
+}
