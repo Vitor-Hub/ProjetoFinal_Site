@@ -3,8 +3,9 @@
 
 <img src = "Public/Img1.jpg" />
 <img src = "Public/Img2.jpg" />
+<img src = "Public/Img3.jpg" />
 
-<h2> Sobre </h>
+<h2> Sobre </h2>
 
 <pre>
     Exercício do curso de Desenvolvimento Web na Universidad Pontificia Comillas em Madrid - Espanha
